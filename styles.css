@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img_res/Brahma_bg.jpg);
+    background-size: cover;
+    background-position: 0% 55%;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    font-family: 'Lexend', sans-serif;
+}
+
+.body_1 {
+    background: linear-gradient(#7d8597c0, #e3f2fdab, #42a4f58a);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+}
+
+/* header */
+
+
+
+/* main content */
+.main_content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.features {
+    background-color: rgba(255, 255, 255, 0.651);
+    width: 40%;
+}
+
+#feature_h2 {
+    margin-left: 8%;
+}
+
+ul {
+    list-style: none;
+    font-weight: 100;
+}
+
+li::before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-image: url("icons_res/feature_star.svg");
+    margin-right: 5px;
+    align-self: baseline;
+}
+
+.login_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 17%;
+    height: 500px;
+}
+
+.login,
+.login_with,
+.features {
+    border-radius: 10px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+form {
+    margin: 0 4% 0 4%;
+}
+
+.login>h2 {
+    text-align: center;
+    color: #3124e3;
+}
+
+form>label {
+    font-size: .8em;
+    color: #979fad;
+}
+
+.help_pass {
+    text-decoration: none;
+    text-align: center;
+    margin: 3% 0;
+    font-size: .8em;
+    color: #0458f5;
+}
+
+input {
+    max-width: 300px;
+    margin-bottom: 2%;
+    border: none;
+    border-bottom: solid 2px #979fad;
+    outline: 0;
+    font-family: inherit;
+    font-size: .9em;
+}
+
+input:focus {
+    border-bottom: solid 2px black;
+}
+
+.thirdparty_login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+#linkedin {
+    width: 42px;
+}
+
+.login_with {
+    background-color: white;
+    margin-top: 2%;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+
+}
+
+.login_with>a {
+    line-height: 0;
+}
+
+/* footer */
