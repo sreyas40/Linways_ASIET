@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-image: url(img_res/Brahma_bg.jpg);
     background-size: cover;
-    background-position: 0% 55%;
+    background-position: 0% 85%;
     font-size: 1.4em;
     line-height: 1.5em;
     font-family: 'Lexend', sans-serif;
@@ -14,12 +14,36 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    /* justify-content: center; */
+    flex-direction: column;
+}
+
+form>input {
+    background-color: rgba(255, 255, 255, 0);
 }
 
 /* header */
+.header {
+    margin: 0.8% 2% 8% 2%;
+    display: flex;
+    justify-content: space-between;
+}
 
+#asiet_logo {
+    height: 48px;
+    width: auto;
+}
 
+.accredition {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accredited_by {
+    width: auto;
+    height: 45px;
+}
 
 /* main content */
 .main_content {
@@ -27,6 +51,7 @@ body {
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .features {
@@ -71,7 +96,7 @@ li::before {
 .login {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.678);
 
 }
 
@@ -99,6 +124,7 @@ form>label {
 
 input {
     max-width: 300px;
+    min-width: 250px;
     margin-bottom: 2%;
     border: none;
     border-bottom: solid 2px #979fad;
@@ -126,7 +152,7 @@ input:focus {
 }
 
 .login_with {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.808);
     margin-top: 2%;
     width: 48%;
     display: flex;
@@ -138,6 +164,23 @@ input:focus {
 
 .login_with>a {
     line-height: 0;
+}
+
+/* ***** */
+.compatibility {
+    text-align: center;
+    margin: 5% 0 10% 0;
+}
+
+.compatible {
+    height: 25px;
+    width: auto;
+    align-self: baseline;
+}
+
+#google_c {
+    height: 30px;
+    width: auto;
 }
 
 /* footer */
