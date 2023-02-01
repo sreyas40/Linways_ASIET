@@ -6,11 +6,11 @@ body {
     background-position: 0% 85%;
     font-size: 1.4em;
     line-height: 1.5em;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .body_1 {
-    background: linear-gradient(#7d8597c0, #e3f2fdab, #42a4f58a);
+    background: linear-gradient(#e3f2fdab, #42a4f58a);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -23,13 +23,13 @@ form>input {
 
 /* header */
 .header {
-    margin: 0.8% 2% 8% 2%;
+    margin: 0% 2% 4% 2%;
     display: flex;
     justify-content: space-between;
 }
 
 #asiet_logo {
-    height: 48px;
+    height: 160px;
     width: auto;
 }
 
@@ -37,12 +37,13 @@ form>input {
     display: flex;
     width: 200px;
     justify-content: space-between;
-    align-items: center;
+    position: relative;
+    top: 20%;
 }
 
 .accredited_by {
     width: auto;
-    height: 45px;
+    height: 40px;
 }
 
 /* main content */
@@ -97,7 +98,7 @@ li::before {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.678);
-
+    font-family: 'Lexend', sans-serif;
 }
 
 form {
@@ -164,23 +165,6 @@ input:focus {
 
 .login_with>a {
     line-height: 0;
-}
-
-/* ***** */
-.compatibility {
-    text-align: center;
-    margin: 5% 0 10% 0;
-}
-
-.compatible {
-    height: 25px;
-    width: auto;
-    align-self: baseline;
-}
-
-#google_c {
-    height: 30px;
-    width: auto;
 }
 
 /* footer */
