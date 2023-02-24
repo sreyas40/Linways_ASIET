@@ -5,11 +5,6 @@ body {
     line-height: 1.5em;
     font-family: 'Nunito', sans-serif;
     background: linear-gradient(270deg, #e3f2fdab, #42a4f5b6);
-}
-
-.body_1 {
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
