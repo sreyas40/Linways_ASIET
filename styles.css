@@ -1,18 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(img_res/Brahma_bg.jpg);
-    background-size: cover;
-    background-position: 0% 85%;
     font-size: 1.4em;
     line-height: 1.5em;
     font-family: 'Nunito', sans-serif;
 }
 
 .body_1 {
-    background: linear-gradient(#e3f2fdab, #42a4f58a);
-    width: 100vw;
-    height: 100vh;
+    background: linear-gradient(270deg, #e3f2fdab, #42a4f5b6);
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -58,6 +55,7 @@ form>input {
 .features {
     background-color: rgba(255, 255, 255, 0.651);
     width: 40%;
+    font-size: 1em;
 }
 
 #feature_h2 {
@@ -84,7 +82,7 @@ li::before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 17%;
+    width: 300px;
     height: 500px;
 }
 
@@ -99,6 +97,7 @@ li::before {
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.678);
     font-family: 'Lexend', sans-serif;
+    min-width: 290px;
 }
 
 form {
@@ -141,6 +140,7 @@ input:focus {
 .thirdparty_login {
     display: flex;
     justify-content: space-between;
+    min-width: 290px;
 }
 
 .logo {
@@ -168,3 +168,24 @@ input:focus {
 }
 
 /* footer */
+
+
+
+
+
+
+
+
+
+/* breakpoints */
+@media(max-width: 1170px) {
+    .main_content {
+        flex-direction: column-reverse;
+
+    }
+
+    .features {
+        width: 50%;
+        margin-bottom: 5%;
+    }
+}
