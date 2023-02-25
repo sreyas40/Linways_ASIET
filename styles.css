@@ -29,8 +29,8 @@ form>input {
     display: flex;
     width: 200px;
     justify-content: space-between;
-    position: relative;
-    top: 20%;
+    margin-top: 30px;
+    flex-shrink: 4;
 }
 
 .accredited_by {
@@ -173,6 +173,11 @@ input:focus {
 
 
 /* breakpoints */
+@media(max-width: 1470px){
+    .features{
+        font-size: .8em;
+    }
+}
 @media(max-width: 1170px) {
     .main_content {
         flex-direction: column-reverse;
@@ -180,7 +185,20 @@ input:focus {
     }
 
     .features {
-        width: 50%;
+        width: 65%;
         margin-bottom: 5%;
     }
+}
+@media(max-width: 560px){
+    .features{
+        width: 85%;
+    }
+}
+@media(max-width:400px){
+   .header{
+    justify-content: center;
+   }
+.accredition{
+    display: none;
+}
 }
