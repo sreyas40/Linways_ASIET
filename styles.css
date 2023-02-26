@@ -202,7 +202,7 @@ input:focus {
         width: 85%;
     }
 }
-@media(max-width:485px){
+@media(max-width:500px){
    .header{
     justify-content: center;
    }
