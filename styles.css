@@ -7,6 +7,11 @@ body {
     background: linear-gradient(270deg, #e3f2fdab, #42a4f5b6);
     display: flex;
     flex-direction: column;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 form>input {
@@ -135,17 +140,21 @@ input:focus {
     justify-content: space-between;
     min-width: 290px;
 }
-.eye{
+
+.eye {
     position: absolute;
-    
+
 }
-.eye_child{
+
+.eye_child {
     height: 20px;
     width: auto;
 }
-#eye_v{
+
+#eye_v {
     display: none;
 }
+
 .logo {
     width: 40px;
     height: auto;
@@ -181,11 +190,12 @@ input:focus {
 
 
 /* breakpoints */
-@media(max-width: 1470px){
-    .features{
+@media(max-width: 1470px) {
+    .features {
         font-size: .8em;
     }
 }
+
 @media(max-width: 1170px) {
     .main_content {
         flex-direction: column-reverse;
@@ -197,16 +207,19 @@ input:focus {
         margin-bottom: 5%;
     }
 }
-@media(max-width: 560px){
-    .features{
+
+@media(max-width: 560px) {
+    .features {
         width: 85%;
     }
 }
-@media(max-width:500px){
-   .header{
-    justify-content: center;
-   }
-.accredition{
-    display: none;
-}
+
+@media(max-width:500px) {
+    .header {
+        justify-content: center;
+    }
+
+    .accredition {
+        display: none;
+    }
 }
