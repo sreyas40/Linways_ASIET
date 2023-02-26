@@ -38,10 +38,14 @@
             <section class="login">
                 <h2>Login</h2>
                 <form action="#">
-                    <label for="user">Username</label>
-                    <input type="text" name="username" id="user" required>
-                    <label for="password">Password</label>
-                    <input type="text" name="password" id="password" required>
+                    <input type="text" name="username" id="user" required placeholder="Username">
+                    <input type="password" name="password" id="password" required placeholder="Password">
+
+                    <span class="eye" onclick="passwordEye()">                  
+                       <img class="eye_child"  id="eye_h" src="icons_res/eye-crossed.svg" alt="password hidden">
+                       <img class="eye_child" id="eye_v" src="icons_res/eye.svg" alt="password shown">
+                    </span>
+
                     <input type="submit" hidden>
                 </form>
                 <a href="#" class="help_pass">forgot password?</a>
@@ -61,6 +65,7 @@
         </section>
     </section>
     <section class="footer"></section>
+    <script src="app.js"></script>
 </body>
 
 </html>

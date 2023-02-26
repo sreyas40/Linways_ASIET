@@ -104,10 +104,7 @@ form {
     color: #3124e3;
 }
 
-form>label {
-    font-size: .8em;
-    color: #979fad;
-}
+
 
 .help_pass {
     text-decoration: none;
@@ -120,7 +117,8 @@ form>label {
 input {
     max-width: 300px;
     min-width: 250px;
-    margin-bottom: 2%;
+    margin-bottom: 10%;
+    padding: 0 0 3% 0;
     border: none;
     border-bottom: solid 2px #979fad;
     outline: 0;
@@ -137,7 +135,17 @@ input:focus {
     justify-content: space-between;
     min-width: 290px;
 }
-
+.eye{
+    position: absolute;
+    
+}
+.eye_child{
+    height: 20px;
+    width: auto;
+}
+#eye_v{
+    display: none;
+}
 .logo {
     width: 40px;
     height: auto;
@@ -194,7 +202,7 @@ input:focus {
         width: 85%;
     }
 }
-@media(max-width:400px){
+@media(max-width:485px){
    .header{
     justify-content: center;
    }
