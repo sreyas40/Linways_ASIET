@@ -50,16 +50,19 @@ form>input {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 5%;
 }
 
 .features {
     background-color: rgba(255, 255, 255, 0.651);
     width: 40%;
     font-size: 1em;
+    box-shadow: 0px 18px 25px #3b81bbad;
 }
 
 #feature_h2 {
     margin-left: 8%;
+    font-family: 'Noto Serif Ethiopic', serif;
 }
 
 ul {
@@ -83,7 +86,7 @@ li::before {
     flex-direction: column;
     justify-content: center;
     width: 300px;
-    height: 500px;
+    height: 330px;
 }
 
 .login,
@@ -172,7 +175,7 @@ input:focus {
     justify-content: center;
     align-items: center;
     padding: 2% 0;
-
+    
 }
 
 .login_with>a {
@@ -211,6 +214,7 @@ input:focus {
 @media(max-width: 560px) {
     .features {
         width: 85%;
+        margin-top: 10%;
     }
 }
 
